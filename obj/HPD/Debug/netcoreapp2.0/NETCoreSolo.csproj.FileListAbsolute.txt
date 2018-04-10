@@ -1,0 +1,10 @@
+C:\Users\Thierry\Source\Repos\DotNetCore\DotNetSoloExamples\NETCoreSolo\bin\HPD\Debug\netcoreapp2.0\NETCoreSolo.deps.json
+C:\Users\Thierry\Source\Repos\DotNetCore\DotNetSoloExamples\NETCoreSolo\bin\HPD\Debug\netcoreapp2.0\NETCoreSolo.runtimeconfig.json
+C:\Users\Thierry\Source\Repos\DotNetCore\DotNetSoloExamples\NETCoreSolo\bin\HPD\Debug\netcoreapp2.0\NETCoreSolo.runtimeconfig.dev.json
+C:\Users\Thierry\Source\Repos\DotNetCore\DotNetSoloExamples\NETCoreSolo\bin\HPD\Debug\netcoreapp2.0\NETCoreSolo.dll
+C:\Users\Thierry\Source\Repos\DotNetCore\DotNetSoloExamples\NETCoreSolo\bin\HPD\Debug\netcoreapp2.0\NETCoreSolo.pdb
+C:\Users\Thierry\Source\Repos\DotNetCore\DotNetSoloExamples\NETCoreSolo\obj\HPD\Debug\netcoreapp2.0\NETCoreSolo.csproj.CoreCompileInputs.cache
+C:\Users\Thierry\Source\Repos\DotNetCore\DotNetSoloExamples\NETCoreSolo\obj\HPD\Debug\netcoreapp2.0\NETCoreSolo.AssemblyInfoInputs.cache
+C:\Users\Thierry\Source\Repos\DotNetCore\DotNetSoloExamples\NETCoreSolo\obj\HPD\Debug\netcoreapp2.0\NETCoreSolo.AssemblyInfo.cs
+C:\Users\Thierry\Source\Repos\DotNetCore\DotNetSoloExamples\NETCoreSolo\obj\HPD\Debug\netcoreapp2.0\NETCoreSolo.dll
+C:\Users\Thierry\Source\Repos\DotNetCore\DotNetSoloExamples\NETCoreSolo\obj\HPD\Debug\netcoreapp2.0\NETCoreSolo.pdb
