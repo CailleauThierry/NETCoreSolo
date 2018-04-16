@@ -1,0 +1,10 @@
+C:\Users\tcailleau\Documents\GitHub\NETCoreSolo\bin\Debug\netcoreapp2.0\NETCoreSolo.deps.json
+C:\Users\tcailleau\Documents\GitHub\NETCoreSolo\bin\Debug\netcoreapp2.0\NETCoreSolo.runtimeconfig.json
+C:\Users\tcailleau\Documents\GitHub\NETCoreSolo\bin\Debug\netcoreapp2.0\NETCoreSolo.runtimeconfig.dev.json
+C:\Users\tcailleau\Documents\GitHub\NETCoreSolo\bin\Debug\netcoreapp2.0\NETCoreSolo.dll
+C:\Users\tcailleau\Documents\GitHub\NETCoreSolo\bin\Debug\netcoreapp2.0\NETCoreSolo.pdb
+C:\Users\tcailleau\Documents\GitHub\NETCoreSolo\obj\Debug\netcoreapp2.0\NETCoreSolo.csproj.CoreCompileInputs.cache
+C:\Users\tcailleau\Documents\GitHub\NETCoreSolo\obj\Debug\netcoreapp2.0\NETCoreSolo.AssemblyInfoInputs.cache
+C:\Users\tcailleau\Documents\GitHub\NETCoreSolo\obj\Debug\netcoreapp2.0\NETCoreSolo.AssemblyInfo.cs
+C:\Users\tcailleau\Documents\GitHub\NETCoreSolo\obj\Debug\netcoreapp2.0\NETCoreSolo.dll
+C:\Users\tcailleau\Documents\GitHub\NETCoreSolo\obj\Debug\netcoreapp2.0\NETCoreSolo.pdb
