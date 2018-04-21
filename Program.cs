@@ -7,10 +7,10 @@ namespace NETCoreSolo
         static void Main(string[] args)
         {
             int age = 42;
-            double money = 540;
-            if (age>18 && money>100)
+            int grade  = 75;
+            if (age>16 && age<80 && grade>50)
             {
-                Console.WriteLine(value: "Welcome!");
+                Console.WriteLine(value: "Welcome new student!");
             }
         }
     }
