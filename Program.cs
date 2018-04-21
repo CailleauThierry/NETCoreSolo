@@ -6,12 +6,14 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            int num = 1;
-            while(num < 6)
-            {
+            int num = 0;
+            // runs 5 times
+            while(++num < 6)
                 Console.WriteLine(num);
-                num++;
-            }
+            num = 0;
+            // runs 6 times    
+            while(num++ < 6)
+                Console.WriteLine(num);
         }
     }
 }
