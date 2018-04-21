@@ -11,7 +11,7 @@ namespace NETCoreSolo
             while(++num < 6)
                 Console.WriteLine(num);
             num = 0;
-            // runs 6 times post increment, condition evaluated before increment explained why it runs 6 times  
+            // Condition evaluated before increment explained why it runs 6 times  
             while(num++ < 6)
                 Console.WriteLine(num);
         }
