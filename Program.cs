@@ -6,11 +6,16 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            int age = 8;
-             if (!(age>=16))
-            {
-                Console.WriteLine(value: "You are younger than 16!");
-            }
+            int age = 42;
+            string msg;
+            if (age>18)
+                msg = "Welcome in!";
+            else
+                msg = "Sorry";
+            Console.WriteLine(msg);
+
+            msg = (age>=18)? "Welcome in son!":"Sorry son!";
+            Console.WriteLine(msg);
         }
     }
 }
