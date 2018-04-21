@@ -6,16 +6,16 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            int age = 42;
-            string msg;
-            if (age>18)
-                msg = "Welcome in!";
-            else
-                msg = "Sorry";
-            Console.WriteLine(msg);
-
-            msg = (age>=18)? "Welcome in son!":"Sorry son!";
-            Console.WriteLine(msg);
+            do
+            {
+                Console.Write("x=");
+                int x = Convert.ToInt32(Console.ReadLine());
+                Console.Write("y=");
+                int y = Convert.ToInt32(Console.ReadLine());
+                int sum;
+                sum = x+y;
+                Console.WriteLine("Result: {0}", arg0: sum);
+            } while (true);
         }
     }
 }
