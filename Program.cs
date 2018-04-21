@@ -6,11 +6,11 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            for (int x = 0; x < 99; x++)
+            int age = 42;
+            double money = 540;
+            if (age>18 && money>100)
             {
-                if (x%2 !=0)
-                 continue;
-                Console.WriteLine(value: x);
+                Console.WriteLine(value: "Welcome!");
             }
         }
     }
