@@ -8,8 +8,12 @@ namespace NETCoreSolo
         {
             do
             {
-                Console.Write("x=");
-                int x = Convert.ToInt32(Console.ReadLine());
+                Console.Write(" type \"exit\" to quit or x=");
+                string val1 = Console.ReadLine();
+                if(val1 == "exit")
+                break;
+                int x = Convert.ToInt32(val1);
+
                 Console.Write("y=");
                 int y = Convert.ToInt32(Console.ReadLine());
                 int sum;
