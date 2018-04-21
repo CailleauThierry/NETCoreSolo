@@ -6,16 +6,11 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            int num =0;
-            while (num < 20)
+            for (int i = 0; i < 10; i++)
             {
-                if (num == 5)
-                {
-                    break;
-                }
-
-                Console.WriteLine(num);
-                num++;
+                if (i==5)
+                 continue;
+                Console.WriteLine(i);
             }
         }
     }
