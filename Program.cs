@@ -7,11 +7,11 @@ namespace NETCoreSolo
         static void Main(string[] args)
         {
             int num = 0;
-            // runs 5 times
+            // runs 5 times pre increments
             while(++num < 6)
                 Console.WriteLine(num);
             num = 0;
-            // runs 6 times    
+            // runs 6 times post increment   
             while(num++ < 6)
                 Console.WriteLine(num);
         }
