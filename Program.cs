@@ -6,11 +6,10 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            int age = 18;
-            int score  = 85;
-            if (age>20 || score>50)
+            int age = 8;
+             if (!(age>=16))
             {
-                Console.WriteLine(value: "Welcome new contender!");
+                Console.WriteLine(value: "You are younger than 16!");
             }
         }
     }
