@@ -6,11 +6,16 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("The summation result is: {0}", Sum(5, 7));
+            Console.WriteLine("The largest number is: {0}", Max(5, 7));
         }
-        static int Sum(int x, int y)
+        static int Max(int a, int b)
         {
-            return x+y;
+            if (a>b)
+            {
+                return a;  // DotNetCore requires those curly braces before the else is accepted
+            }
+            else
+                return b;
         }
     }
 }
