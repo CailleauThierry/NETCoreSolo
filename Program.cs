@@ -6,16 +6,18 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("The largest number is: {0}", Max(5, 7));
+            Console.WriteLine("With a default power of 2 the result is: {0}", Pow(4));
+            Console.WriteLine("With a power of 2 the result is: {0}", Pow(4,2));
+            Console.WriteLine("With a power of 4 the result is: {0}", Pow(4,4));
         }
-        static int Max(int a, int b)
+        static int Pow(int x, int y=2)
         {
-            if (a>b)
+            int result = 1;
+            for (int i = 0; i < y; i++)
             {
-                return a;  // DotNetCore requires those curly braces before the else is accepted
+                result *= x;
             }
-            else
-                return b;
+            return result;
         }
     }
 }
