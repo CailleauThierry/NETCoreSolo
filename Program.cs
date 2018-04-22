@@ -6,14 +6,18 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            int a, b;
-            GetValues(out a,out b);
-            Console.WriteLine("Returned value\na: {0}\nand\nb: {1}", a, b); //demonstrates passing value by Output
-        }
-        static void GetValues(out int x, out int y)
+            int x = 5;
+            double y = 5.5;
+            Print(x);
+            Print(y);
+        }        
+        static void Print(int a)
         {
-            x = 5;
-            y = 42;
+            Console.WriteLine("Prints int a:"+a);
+        }
+            static void Print(double a)
+        {
+            Console.WriteLine("Prints int a:"+a);
         }
     }
 }
