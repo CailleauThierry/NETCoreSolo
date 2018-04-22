@@ -8,7 +8,7 @@ namespace NETCoreSolo
         {
             int a = 3;
             Sqr(a);
-            Console.WriteLine("Returned value: {0}", a); //demonstrates passing value by Reference
+            Console.WriteLine("Returned value: {0}", a); //demonstrates passing value by Value
         }
         static int Sqr(int x)
         {
