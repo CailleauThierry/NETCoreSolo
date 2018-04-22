@@ -15,10 +15,7 @@ namespace NETCoreSolo
             int result = x*x;
             return result;
         }
-        static void SayHi()
-        {
-            Console.WriteLine("Hello!");
-        }
+        static void SayHi() => Console.WriteLine("Hello!");
 
     }
 }
