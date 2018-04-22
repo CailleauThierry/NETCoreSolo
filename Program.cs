@@ -6,9 +6,7 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            int result;
-            result = Sum(5, 7);
-            Console.WriteLine("The summation result is: {0}", result);
+            Console.WriteLine("The summation result is: {0}", Sum(5, 7));
         }
         static int Sum(int x, int y)
         {
