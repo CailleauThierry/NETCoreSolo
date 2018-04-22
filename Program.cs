@@ -6,11 +6,11 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            SayHi();
-            SayHi();
-            SayHi();
+            Print(42);
         }
-        static void SayHi() => Console.WriteLine("Hello!");
-
+        static void Print(int x)
+        {
+            Console.WriteLine(x);
+        }
     }
 }
