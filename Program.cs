@@ -6,12 +6,13 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            int res = Area(h:3,w:2);
-            Console.WriteLine("width time height: {0}", res);
+            int a = 3;
+            Sqr(a);
+            Console.WriteLine("Returned value: {0}", a); //demonstrates that only the vlaue of "a" is being used
         }
-        static int Area(int w, int h)
+        static int Sqr(int x)
         {
-            return w * h;
+            return x * x;
         }
     }
 }
