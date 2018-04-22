@@ -6,20 +6,23 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            do
-            {
-                Console.Write(" type \"exit\" to quit or x=");
-                string val1 = Console.ReadLine();
-                if(val1 == "exit")
-                break;
-                int x = Convert.ToInt32(val1);
+            int y = 8;
+            SayHi();
+            Console.WriteLine("Result from squaring y is: {0}",Sqr(y));
+        }
+        int Sqr(int x)
+        {
+            int result = x*x;
+            return result;
+        }
+        static void SayHi()
+        {
+            NewMethod();
+        }
 
-                Console.Write("y=");
-                int y = Convert.ToInt32(Console.ReadLine());
-                int sum;
-                sum = x+y;
-                Console.WriteLine("Result: {0}", arg0: sum);
-            } while (true);
+        private static void NewMethod()
+        {
+            Console.WriteLine("Hello!");
         }
     }
 }
