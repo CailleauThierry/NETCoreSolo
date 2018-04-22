@@ -6,24 +6,15 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            int x = 5;
-            double y = 5.5;
-            string txt = "Your variable is";
-            Print(x);
-            Print(y);
-            Print(txt, 5.6);
+            Console.WriteLine(Fact(6));
         }        
-        static void Print(int a)
+        static int Fact(int num)
         {
-            Console.WriteLine("Prints int a:"+a);
-        }
-        static void Print(double a)
-        {
-            Console.WriteLine("Prints int a:"+a);
-        }
-        static void Print(string label, double a)
-        {
-            Console.WriteLine(label+": "+a);
+            if (num == 1)
+            {
+                return 1;
+            }
+            return num * Fact(num-1);
         }
     }
 }
