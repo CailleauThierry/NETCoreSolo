@@ -6,14 +6,14 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            int a = 3;
-            Sqr(a);
-            Console.WriteLine("Returned value: {0}", a); //demonstrates passing value by Value
+            int a, b;
+            GetValues(out a,out b);
+            Console.WriteLine("Returned value\na: {0}\nand\nb: {1}", a, b); //demonstrates passing value by Output
         }
-        static int Sqr(int x)
+        static void GetValues(out int x, out int y)
         {
-            x =x*x;
-            return x;
+            x = 5;
+            y = 42;
         }
     }
 }
