@@ -6,15 +6,22 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Fact(6));
+            DrawPyramid(6);
         }        
-        static int Fact(int num)
+        static void DrawPyramid(int height)
         {
-            if (num == 1)
+            for (int i = 1; i <= height; i++)
             {
-                return 1;
+                for (int j = i; j < height; j++)
+                {
+                    Console.Write(" ");
+                }
+                for (int k = 1; k <=2*i-1; k++)
+                {
+                    Console.Write("*"+"");
+                }
+                Console.WriteLine();
             }
-            return num * Fact(num-1);
         }
     }
 }
