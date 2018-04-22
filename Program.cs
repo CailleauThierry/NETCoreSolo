@@ -6,11 +6,13 @@ namespace NETCoreSolo
     {
         static void Main(string[] args)
         {
-            Print(42);
+            int result;
+            result = Sum(5, 7);
+            Console.WriteLine("The summation result is: {0}", result);
         }
-        static void Print(int x)
+        static int Sum(int x, int y)
         {
-            Console.WriteLine(x);
+            return x+y;
         }
     }
 }
