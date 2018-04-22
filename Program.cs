@@ -7,12 +7,13 @@ namespace NETCoreSolo
         static void Main(string[] args)
         {
             int a = 3;
-            Sqr(a);
-            Console.WriteLine("Returned value: {0}", a); //demonstrates that only the vlaue of "a" is being used
+            Sqr(ref a);
+            Console.WriteLine("Returned value: {0}", a); //demonstrates passing value by Reference
         }
-        static int Sqr(int x)
+        static int Sqr(ref int x)
         {
-            return x * x;
+            x =x*x;
+            return x;
         }
     }
 }
